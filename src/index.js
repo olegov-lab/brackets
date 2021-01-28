@@ -1,11 +1,11 @@
 module.exports = function check(str, bracketsConfig) {
 
-    let decomposedConfig = [];
+    let contactConfig = [];
 
     for (let config of bracketsConfig) {
-      decomposedConfig = decomposedConfig.concat(config)
+      contactConfig = contactConfig.concat(config)
     }
-    bracketsConfig = decomposedConfig;
+    bracketsConfig = contactConfig;
 
     let bracketIndex;
     const stack = [];
